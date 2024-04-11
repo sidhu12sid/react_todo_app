@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { Component } from "react";
-import Todo from "./components/Todo";
+import Forms from "./components/Forms";
 class App extends Component {
   state={
     myString: "Hello every one welcome to the tutorial"
@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Todo myString = {this.state.myString} />
+        <Forms/>
       </div>
     );
   }

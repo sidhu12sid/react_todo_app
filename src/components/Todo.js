@@ -5,8 +5,7 @@ class Todo extends Component {
     render() { 
         return ( 
             <div>
-                <h1> Todo Application using react js</h1>
-                <p>{this.props.myString}</p>
+                
             </div>
          );
     }
